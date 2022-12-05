@@ -10,6 +10,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "bancho.js": "^0.9.7",
+    "dotenv": "^16.0.3",
     "nodesu": "^0.7.3",
     "tmi.js": "^1.8.5"
   }

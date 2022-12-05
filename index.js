@@ -2,16 +2,32 @@ const tmi = require("tmi.js");
 const { BanchoClient } = require("bancho.js");
 const { Client } = require("nodesu");
 
+require("dotenv").config;
+
 process.on('unhandledRejection', error => console.log(error));
 process.on('uncaughtException', error => console.log(error));
 
-const bancho = new BanchoClient(require("./config.json").bancho);
+const bancho = new BanchoClient({
+  username: process.env.OSU_NAME,
+  password: process.env.OSU_PASS,
+  apiKey: process.env.OSU_API_KEY,
+});
 
 bancho.connect().then(() => {
   console.log("[INFO] Connected to Bancho!");
 });
 
-const client = new tmi.client(require("./config.json").twitch);
+const client = new tmi.client({
+  connection: {
+    reconnect: true,
+    secure: true
+  },
+  identity: {
+    username: process.env.TWITCH_NAME,
+    password: process.env.TWITCH_OAUTH 
+  },
+  channels: [process.env.TWITCH_CHANNEL]
+});
 
 client.connect().then(() => {
   console.log("[INFO] Connected to Twitch!");
