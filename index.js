@@ -37,7 +37,7 @@ client.connect().then(() => {
       if (!regex.test(message)) return;
 
       const beatmapId = message.match(regex)[4];
-      const { beatmaps } = new Client(require("./config.json").bancho.apiKey);
+      const { beatmaps } = new Client(process.env.OSU_API_KEY);
       const beatmap = await beatmaps.getByBeatmapId(beatmapId);
 
       if (beatmap.length == 0) return client.say(channel, `@${tags.username}, Beatmap not found!`);
