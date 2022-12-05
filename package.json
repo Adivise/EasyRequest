@@ -1,0 +1,16 @@
+{
+  "name": "spacerequest",
+  "version": "1.0.1",
+  "description": "get request from twitch chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Adivise",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bancho.js": "^0.9.7",
+    "nodesu": "^0.7.3",
+    "tmi.js": "^1.8.5"
+  }
+}
