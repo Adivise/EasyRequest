@@ -19,7 +19,8 @@
 
 - [x] Node.js **[Download](https://nodejs.org/en/download/)**
 - [x] TMI Oauth **[Click Here](https://twitchapps.com/tmi/)**
-- [x] Osu IRC **[Click Here](https://osu.ppy.sh/p/irc)**
+- [x] osu!Irc **[Get](https://osu.ppy.sh/p/irc)**
+- [x] osu!ApiKey **[Guide](https://github.com/ppy/osu-api/wiki)**
 
 ## 📚 Installation
 
