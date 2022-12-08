@@ -60,5 +60,5 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
 ## ❣ Contributors
 
 <a href="https://github.com/Adivise/SpaceTime/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Adivise/SpaceTime" />
+  <img src="https://contributors-img.web.app/image?repo=Adivise/SpaceRequest" />
 </a>
