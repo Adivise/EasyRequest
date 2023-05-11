@@ -4,15 +4,10 @@
         "password": "YOUR_IRC_PASSWORD",
         "apiKey": "YOUR_API_KEY"
     },
-    "twitch": {
-        "connection": {
-            "reconnect": true,
-            "secure": true
-        },
-        "identity": {
-            "username": "Nanotect_",
-            "password": "YOUR_TMI_OAUTH"  
-        },
-        "channels": ["nanotect_"]
+    "mode": 0,
+    "username": "Nanotect_",
+    "password": "YOUR_TMI_OAUTH"  
+    "channels": {
+        "nanotect_": "Suntury"
     }
 }

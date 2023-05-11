@@ -43,16 +43,11 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
         "password": "YOUR_IRC_PASSWORD",
         "apiKey": "YOUR_API_KEY"
     },
-    "twitch": {
-        "connection": {
-            "reconnect": true,
-            "secure": true
-        },
-        "identity": {
-            "username": "Nanotect_",
-            "password": "YOUR_TMI_OAUTH"  
-        },
-        "channels": ["nanotect_"]
+    "mode": 0, // 0 = Standard, 1 = Taiko, 2 = Catch, 3 = Mania
+    "username": "Nanotect_",
+    "password": "YOUR_TMI_OAUTH"  
+    "channels": { // "TWITCHNAME": "IGN"
+        "nanotect_": "Suntury"
     }
 }
 ```
