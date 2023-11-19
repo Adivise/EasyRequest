@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=SpaceRequest&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient"/> </a> 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=EasyRequest&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient"/> </a> 
 </p>
 
 <p align="center"> 
@@ -25,8 +25,8 @@
 ## 📚 Installation
 
 ```
-git clone https://github.com/Adivise/SpaceRequest
-cd SpaceRequest
+git clone https://github.com/Adivise/EasyRequest
+cd EasyRequest
 npm install
 ```
 
